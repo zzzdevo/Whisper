@@ -4,57 +4,57 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}.
-Welcome to {}
+ʜᴇʏ {}.
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {}
 
-I am the Master of Whisperers (like Varys in Game of Thrones).
+I ᴀᴍ ᴛʜᴇ Mᴀsᴛᴇʀ ᴏғ Wʜɪsᴘᴇʀᴇʀs (ʟɪᴋᴇ Vᴀʀʏs ɪɴ Gᴀᴍᴇ ᴏғ Tʜʀᴏɴᴇs).
 
-You can use me to send whispers to your friend in groups and channels (even if I'm not there).
-Only that friend and you will be able to read the message even though others are in same group. 
+Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ᴛᴏ sᴇɴᴅ ᴡʜɪsᴘᴇʀs ᴛᴏ ʏᴏᴜʀ ғʀɪᴇɴᴅ ɪɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs (ᴇᴠᴇɴ ɪғ I'ᴍ ɴᴏᴛ ᴛʜᴇʀᴇ).
+Oɴʟʏ ᴛʜᴀᴛ ғʀɪᴇɴᴅ ᴀɴᴅ ʏᴏᴜ ᴡɪʟʟ ʙᴇ ᴀʙʟᴇ ᴛᴏ ʀᴇᴀᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴇᴠᴇɴ ᴛʜᴏᴜɢʜ ᴏᴛʜᴇʀs ᴀʀᴇ ɪɴ sᴀᴍᴇ ɢʀᴏᴜᴘ. 
 
-To see how to use me press 'How to Use' below.
+Tᴏ sᴇᴇ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴘʀᴇss 'Hᴏᴡ ᴛᴏ Usᴇ' ʙᴇʟᴏᴡ.
 
-By @DevanshXBots
+ʙʏ @ZSZZ7
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔐 Send a Whisper 🔐", switch_inline_query="")],
-        [InlineKeyboardButton(text="Return Home", callback_data="home")],
+        [InlineKeyboardButton("🔐 Sᴇɴᴅ ᴀ Wʜɪsᴘᴇʀ 🔐", switch_inline_query="")],
+        [InlineKeyboardButton(text="Rᴇᴛᴜʀɴ Hᴏᴍᴇ", callback_data="home")],
     ]
     # Rest Buttons
     buttons = [
         [
-            InlineKeyboardButton("🔐 Send a Whisper 🔐", switch_inline_query="")
+            InlineKeyboardButton("🔐 Sᴇɴᴅ ᴀ Wʜɪsᴘᴇʀ 🔐", switch_inline_query="")
         ],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("❄ About ❄", callback_data="about")
+            InlineKeyboardButton("Hᴏᴡ ᴛᴏ Usᴇ ❔", callback_data="help"),
+            InlineKeyboardButton("❄️ Aʙᴏᴜᴛ ❄️", callback_data="about")
         ],
-        [InlineKeyboardButton("More Amazing bots", url="https://t.me/DevanshXBots")],
-        [InlineKeyboardButton("💸 Support Group 💸", url="https://t.me/Devil_Bots_Support")],
+        [InlineKeyboardButton("Mᴏʀᴇ Aᴍᴀᴢɪɴɢ ʙᴏᴛs", url="https://t.me/ZSZZ7")],
+        [InlineKeyboardButton("💸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💸", url="https://t.me/Devil_Bots_Support")],
     ]
 
     # Help Message
     HELP = """
-Just type the message in below format in any chat.
+Jᴜsᴛ ᴛʏᴘᴇ ᴛʜᴇ ᴍᴇssᴀɢᴇ ɪɴ ʙᴇʟᴏᴡ ғᴏʀᴍᴀᴛ ɪɴ ᴀɴʏ ᴄʜᴀᴛ.
 
-`@DevXWhisperBot your_message friend_username/id`
+@DᴇᴠXWʜɪsᴘᴇʀBᴏᴛ ʏᴏᴜʀ_ᴍᴇssᴀɢᴇ ғʀɪᴇɴᴅ_ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ
     """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+Aʙᴏᴜᴛ Tʜɪs Bᴏᴛ 
 
-Bot created by @DevanshXBots
+Bᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ @ZSZZ7
 
-Source Code : [Click Here](https://github.com/Devansh-Bots/DevXWhisperBot)
+Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : [Cʟɪᴄᴋ Hᴇʀᴇ](https://github.com/Devansh-Bots/DevXWhisperBot)
 
-Inspired By : nnbbot
+Iɴsᴘɪʀᴇᴅ Bʏ : ɴɴʙʙᴏᴛ
 
-Framework : [Pyrogram](docs.pyrogram.org)
+Fʀᴀᴍᴇᴡᴏʀᴋ : [Pʏʀᴏɢʀᴀᴍ](docs.pyrogram.org)
 
-Language : [Python](www.python.org)
+Lᴀɴɢᴜᴀɢᴇ : [Pʏᴛʜᴏɴ](www.python.org)
 
-Developer : @DamnDevansh
+Dᴇᴠᴇʟᴏᴘᴇʀ : @ZSZZ7
     """
