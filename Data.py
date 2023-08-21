@@ -32,14 +32,14 @@ Tᴏ sᴇᴇ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴘʀᴇss 'Hᴏᴡ ᴛᴏ Usᴇ' ʙ
             InlineKeyboardButton("❄️ Aʙᴏᴜᴛ ❄️", callback_data="about")
         ],
         [InlineKeyboardButton("Mᴏʀᴇ Aᴍᴀᴢɪɴɢ ʙᴏᴛs", url="https://t.me/ZSZZ7")],
-        [InlineKeyboardButton("💸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💸", url="https://t.me/Devil_Bots_Support")],
+        [InlineKeyboardButton("💸 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 💸", url="https://t.me/ZSZZ7")],
     ]
 
     # Help Message
     HELP = """
 Jᴜsᴛ ᴛʏᴘᴇ ᴛʜᴇ ᴍᴇssᴀɢᴇ ɪɴ ʙᴇʟᴏᴡ ғᴏʀᴍᴀᴛ ɪɴ ᴀɴʏ ᴄʜᴀᴛ.
 
-@DᴇᴠXWʜɪsᴘᴇʀBᴏᴛ ʏᴏᴜʀ_ᴍᴇssᴀɢᴇ ғʀɪᴇɴᴅ_ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ
+@zdevobot ʏᴏᴜʀ_ᴍᴇssᴀɢᴇ ғʀɪᴇɴᴅ_ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ
     """
 
     # About Message
