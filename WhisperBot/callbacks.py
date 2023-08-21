@@ -50,8 +50,8 @@ async def _callbacks(bot, callback_query: CallbackQuery):
 			if q:
 				await callback_query.answer(q.message, show_alert=True)
 			else:
-				await callback_query.answer("Message Not Found", show_alert=True)
+				await callback_query.answer("Mᴇssᴀɢᴇ Nᴏᴛ Fᴏᴜɴᴅ", show_alert=True)
 			SESSION.commit()
 		else:
-			await callback_query.answer("Vai Tujhe kya itni panchayat hai! Tere liye nhi hai ye whisper.", show_alert=True)
+			await callback_query.answer("Vᴀɪ TᴜJʜᴇ ᴋʏᴀ ɪᴛɴɪ ᴘᴀɴᴄʜᴀʏᴀᴛ ʜᴀɪ! Tᴇʀᴇ ʟɪʏᴇ ɴʜɪ ʜᴀɪ ʏᴇ ᴡʜɪsᴘᴇʀ.", show_alert=True)
 		await check_for_users(data_list)
